@@ -57,12 +57,9 @@ h3{
     margin-left: 25%;
 }
 
-h6{
-    color: #bdb7b7;
-    font-size: smaller;
-    font-family: 'Martel', serif;
-    margin-left: 25%;
-    margin-top: -60px;
+h2.jobroles{
+    color:  #8EAADB;
+    font-size: 50px;
 }
 
 /*header*/
@@ -117,6 +114,11 @@ p.videos{
 }
 
 p.indent{
+    margin-left: 27%;
+}
+
+p.indlp{
+    padding-bottom: 3%;
     margin-left: 27%;
 }
 
