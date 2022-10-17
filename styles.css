@@ -1,0 +1,161 @@
+body {
+    background-color: #f5f5e6;
+    margin: 0;
+}
+
+/* navigation bar */
+ul {
+    list-style-type: none;
+    margin-top: -8%;
+    padding: 10px;
+    width: 20%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-size: 100%;
+    font-family: 'Martel', serif;
+  }
+  
+  li a {
+    display: block;
+    color: #767171;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #A8D08D;
+    color: #f5f5e6;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: #f5f5e6;
+  }
+
+/*headings*/
+h1{
+    color:  #8EAADB;
+    font-size: 75px;
+    font-family: 'Martel', serif;
+    margin-left: 25%;
+    margin-top: 10px;
+    padding-bottom: 0%;
+}
+
+h2{
+    color: #A8D08D;
+    font-size: 40px;
+    font-family: 'Martel', serif;
+    margin-left: 25%;
+}
+
+h3{
+    color: #A8D08D;
+    font-size: 25px;
+    font-family: 'Martel', serif;
+    margin-left: 25%;
+}
+
+h6{
+    color: #bdb7b7;
+    font-size: smaller;
+    font-family: 'Martel', serif;
+    margin-left: 25%;
+    margin-top: -60px;
+}
+
+/*header*/
+header{
+    font-size: 30px;
+    color: #E7E6E6;
+    font-family: 'Martel', serif;
+    text-align: center;
+    padding: -20%;
+}
+
+.header-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+div{
+    text-align: center;
+}
+
+/*footer*/
+footer{
+    font-family:'Martel', serif;
+    font-size: 15px;
+    margin-left: 25%;
+    color: #767171;
+    padding-bottom: 5%;
+    padding-top: 1%;
+}
+
+.githublink{
+    height: 100px;
+}
+
+/*paragraphs*/
+p{
+    margin-left: 25%;
+    margin-right: 10%;
+    font-size: 20px;
+    color: #767171;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p.lastparagraph{
+    padding-bottom: 3%;
+}
+
+p.videos{
+    margin-left: 28%;
+}
+
+p.indent{
+    margin-left: 27%;
+}
+
+/*links*/
+a.headinglink:link{
+   color: #A8D08D;
+}
+a.headinglink:visited{
+   color: #A8D08D;
+}
+a.headinglink:hover{
+   color: #A8D08D;
+}
+a.headinglink:active{
+   color: #A8D08D;
+}
+
+a.footerlink:link{
+    color: lightslategray;
+}
+a.footerlink:visited{
+   color: lightslategray;
+}
+a.footerlink:hover{
+   color: lightslategray;
+}
+a.footerlink:active{
+   color: lightslategray;
+}
+
+a.textlinklink{
+    color: #767171;
+}
+a.textlink:visited{
+   color: #767171;
+}
+a.textlink:hover{
+   color: #767171;
+}
+a.textlink:active{
+   color: #767171;
+}
